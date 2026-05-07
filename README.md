@@ -10,6 +10,31 @@ A minimal web chatbot that uses Google's Gemini API with:
 - Multiple chats listed in the UI
 - Loading states for uploads and responses
 
+## Live Demo
+
+Frontend: https://infollion-gemini-chatbot.vercel.app/
+
+Backend Health Check: https://infollion-gemini-chatbot.onrender.com/api/health
+
+## Tech Stack
+
+- Frontend: React + Vite
+- Backend: FastAPI
+- AI Model: Google Gemini API
+- Deployment:
+  - Frontend → Vercel
+  - Backend → Render
+
+A minimal web chatbot that uses Google's Gemini API with:
+
+- Text conversation
+- PDF/TXT document upload
+- PNG/JPG image upload with preview
+- In-memory chat context
+- New Chat reset
+- Multiple chats listed in the UI
+- Loading states for uploads and responses
+
 ## Project Structure
 
 ```text
