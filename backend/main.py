@@ -30,10 +30,9 @@ ALLOWED_IMAGE_TYPES = {
 
 app = FastAPI(title="Gemini Chatbot API")
 
-frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_origin, "http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
